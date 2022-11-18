@@ -10,6 +10,11 @@ import {
 } from './styles'
 import checkBox from '../../assets/checkbox2.png'
 
+import network from '../../assets/site.png'
+import linkedin from '../../assets/linkedin.png'
+import instagram from '../../assets/instagram.png'
+import facebook from '../../assets/facebook.png'
+
 export const EndSubscription = () => {
   return (
     <>
@@ -50,10 +55,22 @@ export const EndSubscription = () => {
             <img src={checkBox} alt="ícone de checkbox" />
             <span>Hey, segue a gente nas redes!</span>
             <SocialMedias>
-              <span>3035tech.com</span>
-              <span>3035Tech</span>
-              <span>3035Tech</span>
-              <span>3035 Tech</span>
+              <a href="https://www.3035tech.com/#/">
+                <img src={network} alt="" />
+                <span>3035tech.com</span>
+              </a>
+              <a href="https://www.linkedin.com/company/3035-tech/">
+                <img src={linkedin} alt="" />
+                <span>3035Tech</span>
+              </a>
+              <a href="https://www.instagram.com/3035.tech/">
+                <img src={instagram} alt="" />
+                <span>3035Tech</span>
+              </a>
+              <a href="https://www.facebook.com/3035.tech">
+                <img src={facebook} alt="" />
+                <span>3035 Tech</span>
+              </a>
             </SocialMedias>
           </ContactInfo>
         </div>

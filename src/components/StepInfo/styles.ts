@@ -1,15 +1,14 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Grid = styled.section`
   width: 100%;
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(5, auto);
   position: absolute;
-  top: -140px;
+  top: 200px;
 `
 
-export const Grid = styled.div`
+export const Items = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 15px;
